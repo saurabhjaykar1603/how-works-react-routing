@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar";
 import "./../Home/Home.css";
 import Button from "../../components/Button/Button";
+import Footer from "../../components/Footer/Footer";
 export default function Home() {
   return (
     <>
@@ -35,6 +36,9 @@ export default function Home() {
             <Button text={"Add to Cart"} />
           </div>
         </div>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </>
   );
