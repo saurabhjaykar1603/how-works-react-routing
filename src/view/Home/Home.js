@@ -15,7 +15,7 @@ export default function Home() {
         <div className="card">
           <h1>Card 1</h1>
           <div className="mt-52">
-            <Button text={"Add to Cart"} />
+            <Button text={"Add to Cart"} bgColor={"bg-black"} />
           </div>
         </div>
         <div className="card">
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="card">
           <h1>Card 4</h1>
           <div className="mt-52">
-            <Button text={"Add to Cart"} />
+            <Button text={"Add to Cart"} bgColor={"bg-black"}/>
           </div>
         </div>
       </div>
